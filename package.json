@@ -12,6 +12,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "start": "node index.js",
     "heroku-postbuild": "yarn && yarn run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
