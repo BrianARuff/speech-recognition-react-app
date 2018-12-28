@@ -35,6 +35,7 @@ class App extends React.Component {
                 this.setState({isRecording: false});
             };
         } else {
+            alert("Use most recent version of Chrome.")
             console.log("Use most recent version of Chrome.")
         }
     }
